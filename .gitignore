@@ -77,8 +77,6 @@ venv/
 # profiling data
 .prof
 
-# Output directory
-output/
 
 # System files
 .DS_Store
