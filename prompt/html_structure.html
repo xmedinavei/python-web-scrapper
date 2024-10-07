@@ -1,0 +1,173 @@
+<!-- The 'data-testid' attribute appears to be unique for each article, making it a reliable identifier for scraping purposes, as opposed to using the 'class' attribute which may not be unique. -->
+<!-- The XPATHs listed below indicate the elements that need to be scraped. These paths provide precise locations of the elements within the HTML structure. -->
+<body>
+  <div id="__next">
+    <div class="app">
+      <!-- Here starts the main content. I am not going to include the whole content here as it is too long. I will include only the part that is relevant to the task. -->
+      <main id="main-content">
+        <article class="sc-9636e898-0 dYtsiK">
+          <!-- XPATH: //*[@id="main-content"]/article/section[1] -->
+          <!-- If you se the property data-testid="virginia-section-outer-8" you can see that the section is a container for 8 articles. -->
+          <section
+            data-analytics_group_item_count="8"
+            class="sc-2448c165-1 gvnjGp"
+          >
+            <div class="sc-2448c165-2 eMVRpx">
+              <div data-testid="undefined-grid-8" class="sc-b38350e4-1 dlepEy">
+                <div class="sc-93223220-0 dyVGhC">
+                  <!-- Here is where the article card starts. In this case is a 'london-card'. -->
+                  <div data-testid="london-card">
+                    <div
+                      data-testid="london-article"
+                      class="sc-f98732b0-3 ephYtw"
+                    >
+                      <div data-testid="anchor-inner-wrapper">
+                        <!-- XPATH: //*[@id="main-content"]/article/section[1]/div/div[2]/div[1]/div/div/div[1]/a -->
+                        <!-- This is href is the should be scrapped as the URL of the article. -->
+                        <a
+                          href="/news/articles/c781vgy3918o"
+                          data-testid="internal-link"
+                          class="sc-2e6baa30-0 gILusN"
+                          ><div
+                            data-testid="london"
+                            class="sc-f98732b0-2 bNZLNs"
+                          >
+                            <div
+                              data-testid="card-media-wrapper"
+                              class="sc-f98732b0-4 emSCvS"
+                            >
+                              <div
+                                data-testid="card-media"
+                                class="sc-f98732b0-1 jSgXDY"
+                              >
+                                <div class="sc-a34861b-1 jxzoZC">
+                                  <!-- XPATH: //*[@id="main-content"]/article/section[1]/div/div[2]/div[1]/div/div/div[1]/a/div/div[1]/div/div/img -->
+                                  <!-- Here are two variables to be scrapped:
+                                  i) "src" as the image URL
+                                  ii) "alt" as the image description -->
+                                  <img
+                                    src="https://ichef.bbci.co.uk/news/480/cpsprodpb/1782/live/319199a0-8415-11ef-83dd-fbf1b9732cf0.jpg.webp"
+                                    alt="Journalists take cover behind cars as Israeli soldiers take position during clashes with Palestinian fighters near the Gevim Kibbutz, close to the border with Gaza on 7 October, 2023"
+                                    class="sc-a34861b-0 efFcac"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              data-testid="card-text-wrapper"
+                              class="sc-f98732b0-5 gGpWNz"
+                            >
+                              <div class="sc-4fedabc7-1 kbvCmj">
+                                <div class="sc-4fedabc7-0 kZtaAl">
+                                  <!-- XPATH: //*[@id="main-content"]/article/section[1]/div/div[2]/div[1]/div/div/div[1]/a/div/div[2]/div[1]/div/h2 -->
+                                  <!-- This will be scrapped as the headline of the article. -->
+                                  <h2
+                                    data-testid="card-headline"
+                                    class="sc-4fedabc7-3 dsoipF"
+                                  >
+                                    Bowen: Year of killing and broken
+                                    assumptions has taken Middle East to edge of
+                                    deeper, wider war<!-- -->
+                                  </h2>
+                                </div>
+                              </div>
+                              <!-- XPATH: //*[@id="main-content"]/article/section[1]/div/div[2]/div[1]/div/div/div[1]/a/div/div[2]/p -->
+                              <!-- This will be scrapped as the description of the article. -->
+                              <p
+                                data-testid="card-description"
+                                class="sc-f98732b0-0 iQbkqW"
+                              >
+                                Twelve months on from the 7 October attacks
+                                which led to Israel's war in Gaza, our
+                                international editor says the region is on the
+                                edge of something even worse.
+                              </p>
+                              <div class="sc-4e537b1-0 hJDQRX">
+                                <!-- XPATH: //*[@id="main-content"]/article/section[1]/div/div[2]/div[1]/div/div/div[1]/a/div/div[2]/div[3] -->
+                                <!-- This should be scraped as the "tag" of the article. Note that an article could have zero, one, or multiple tags. In this case, this article has one tag only. -->
+                                <span
+                                  data-testid="card-metadata-tag"
+                                  class="sc-4e537b1-2 eRsxHt"
+                                  >Middle East</span
+                                >
+                              </div>
+                              <!-- XPATH: //*[@id="main-content"]/article/section[1]/div/div[2]/div[1]/div/div/div[1]/a/div/div[2]/div[3] -->
+                              <!-- This should be scrapped as a list called "related_urls" of the article. 
+                              Note that an article could have zero, one, or multiple related URLs. 
+                              In this case, this article has zero related URLs. -->
+                              <div
+                                data-testid="card-relatedUrls"
+                                class="sc-c01f71b3-0 ghsqpk"
+                              ></div>
+                            </div></div
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sc-93223220-0 sc-b38350e4-4 jqlqhc hprnWz">
+                  <!-- Here is where the article card starts. In this case is a 'edinburgh-card'. -->
+                  <div data-testid="edinburgh-card">
+                    <!-- Here are the rest of the other article -->
+                  </div>
+                </div>
+                <div class="sc-93223220-0 biogCF">
+                  <!-- Here is where the article card starts. In this case is a 'manchester-card'. -->
+                  <div data-testid="manchester-card">
+                    <!-- Here are the rest of the other article -->
+                  </div>
+                  <div data-testid="manchester-card">
+                    <!-- Here are the rest of the other article -->
+                  </div>
+                </div>
+                <div class="sc-93223220-0 sc-b38350e4-2 cmkdDu QUMNJ">
+                  <div class="sc-b38350e4-3 gugNoq">
+                    <div data-testid="edinburgh-card">
+                      <!-- Here are the rest of the other article -->
+                    </div>
+                  </div>
+                  <div data-testid="edinburgh-card">
+                    <!-- Here are the rest of the other article -->
+                  </div>
+                  <div data-testid="edinburgh-card">
+                    <!-- Here are the rest of the other article -->
+                  </div>
+                  <div data-testid="edinburgh-card">
+                    <!-- Here are the rest of the other article -->
+                  </div>
+                  <div data-testid="edinburgh-card">
+                    <!-- Here are the rest of the other article -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+            data-testid="ohio-section-outer-5"
+            data-analytics-group="true"
+            data-analytics_group_name=""
+            data-analytics_group_type="ohio-5"
+            data-analytics_group_position="2"
+            data-analytics_group_item_count="5"
+            data-analytics_group_link=""
+            class="sc-2448c165-1 cqoYjr"
+          >
+            <!-- Here is the other section which in this case contains 5 articles. -->
+          </section>
+          <section
+            data-testid="nevada-section-outer-5"
+            data-analytics-group="true"
+            data-analytics_group_name="Conflict in the Middle East"
+            data-analytics_group_type="nevada-5"
+            data-analytics_group_position="3"
+            data-analytics_group_item_count="5"
+            data-analytics_group_link=""
+            class="sc-2448c165-1 gvnjGp"
+          >
+            <!-- Here is the other section which in this case contains 5 articles. -->
+          </section>
+        </article>
+      </main>
+    </div>
+  </div>
+</body>
