@@ -140,3 +140,4 @@ Xavier Medina
 
 Email - xmedinavei@gmail.com
 Project Link: [https://github.com/xmedinavei/python-web-scrapper](https://github.com/xmedinavei/python-web-scrapper)
+Blog Post: [How to Create a Web Scraper Without Writing Code: Unlocking the Power of Prompt Engineering with ChatGPT](https://xaviermedina.hashnode.dev/how-to-create-a-web-scraper-without-writing-code-unlocking-the-power-of-prompt-engineering-with-chatgpt)
