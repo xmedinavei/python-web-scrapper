@@ -1,68 +1,80 @@
-# BBC News Web Scraper
+# 📰 BBC News Web Scraper 🌐
 
-A Python-based web scraper that extracts news articles from BBC News using Selenium and BeautifulSoup4. Built with the power of AI prompt engineering and ChatGPT.
+![GitHub repo size](https://img.shields.io/github/repo-size/xmedinavei/python-web-scrapper) ![GitHub issues](https://img.shields.io/github/issues/xmedinavei/python-web-scrapper) ![GitHub forks](https://img.shields.io/github/forks/xmedinavei/python-web-scrapper?style=social) ![GitHub stars](https://img.shields.io/github/stars/xmedinavei/python-web-scrapper?style=social) 
+![Python](https://img.shields.io/badge/Python-3.9-blue) ![Docker](https://img.shields.io/badge/Docker-Enabled-blue) ![OpenAI-ChatGPT](https://img.shields.io/badge/OpenAI-ChatGPT-green)
 
-## Features
+A **Python-based web scraper** that extracts news articles from BBC News using **Selenium** and **BeautifulSoup4**.  
+Built with the power of **AI Prompt Engineering** and **ChatGPT**.
 
-- Extracts comprehensive article data including:
-  - URLs
-  - Headlines
-  - Descriptions
-  - Image URLs (highest resolution)
-  - Image descriptions
-  - Tags
-  - Related URLs
-- Handles dynamic JavaScript-rendered content
-- Implements automatic scrolling for lazy-loaded content
-- Manages missing data fields gracefully
-- Outputs clean, structured JSON data
+---
 
-## Requirements
+## ✨ Features
 
-```text
-Python 3.9+
-Chrome WebDriver
-```
+- 📜 Extracts comprehensive article data, including:
+  - 🔗 URLs
+  - 📰 Headlines
+  - 🖼️ Image URLs (highest resolution)
+  - ✏️ Image descriptions
+  - 🌂 Tags
+  - 🔄 Related URLs
+- ⚡ Handles dynamic JavaScript-rendered content
+- 💡 Implements automatic scrolling for lazy-loaded content
+- ❌ Manages missing data fields gracefully
+- 📂 Outputs clean, structured JSON data
 
-## Installation
+---
 
-1. Clone the repository:
+## 📋 Requirements
 
-```bash
-git clone https://github.com/yourusername/bbc-news-scraper.git
-cd bbc-news-scraper
-```
+- **Python 3.9+**  
+- **Chrome WebDriver**
 
-2. Create a virtual environment:
+---
 
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+## 🚀 Installation
 
-3. Install dependencies:
+1. **Clone the repository**:
 
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   git clone https://github.com/xmedinavei/python-web-scrapper.git
+   cd python-web-scrapper
+   ```
 
-## Usage
+2. **Create a virtual environment**:
 
-1. Run the main scraper:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
-```bash
-python scrapper.py
-```
+3. **Install dependencies**:
 
-2. The scraper will:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-- Launch a headless Chrome browser
-- Navigate to BBC News
-- Scroll through the page to load all content
-- Extract article data
-- Save results to `output/news_scrapped.json`
+---
 
-## Output Format
+## 🛠️ Usage
+
+1. **Run the scraper**:
+
+   ```bash
+   python scrapper.py
+   ```
+
+   🎯 The scraper will:
+   - Launch a headless Chrome browser
+   - Navigate to BBC News
+   - Scroll through the page to load all content
+   - Extract article data
+   - Save results to `output/news_scrapped.json`
+
+---
+
+## 🖂️ Output Format
+
+Here's an example of the output JSON structure:
 
 ```json
 [
@@ -77,18 +89,22 @@ python scrapper.py
 ]
 ```
 
-## Docker Support
+---
 
-Build and run the scraper in a container:
+## 🐳 Docker Support
+
+**Build and run** the scraper in a container:
 
 ```bash
 docker build -t bbc-news-scraper .
 docker run bbc-news-scraper
 ```
 
-## Project Structure
+---
 
-```
+## 🏠 Project Structure
+
+```plaintext
 bbc-news-scraper/
 ├── scrapper.py         # Main scraper implementation
 ├── bad_scrapper.py     # Example of basic scraper (for comparison)
@@ -98,50 +114,60 @@ bbc-news-scraper/
 └── README.md           # Project documentation
 ```
 
-## Technology Stack
+---
 
-- Python 3.9
-- Selenium WebDriver
-- BeautifulSoup4
-- Chrome (headless mode)
-- Docker
+## 🔧 Technology Stack
 
-## Limitations
+- **Python 3.9**  
+- **Selenium WebDriver**  
+- **BeautifulSoup4**  
+- **Chrome (headless mode)**  
+- **Docker**
 
-- Requires stable internet connection
-- May need adjustments if BBC News changes their HTML structure
-- Chrome WebDriver must be compatible with installed Chrome version
+---
 
-## Contributing
+## ⚠️ Limitations
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+- Requires a stable internet connection  
+- May need adjustments if BBC News changes their HTML structure  
+- Chrome WebDriver must be compatible with the installed Chrome version  
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+---
 
-## License
+## 🤝 Contributing
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Contributions are welcome! 🚀  
+Please follow these steps:
 
-## Acknowledgments
+1. **Fork the repository**  
+2. **Create your feature branch** (`git checkout -b feature/AmazingFeature`)  
+3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)  
+4. **Push to the branch** (`git push origin feature/AmazingFeature`)  
+5. **Open a Pull Request**
 
-- Built with assistance from ChatGPT
-- Inspired by the power of prompt engineering
-- Thanks to the BBC News website structure documentation
+---
 
-## Author
+## 📄 License
 
-Xavier Medina
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for details.
 
-## Contact
+---
 
-## Contact
+## 💡 Acknowledgments
 
-Email - xmedinavei@gmail.com
+- Built with assistance from **ChatGPT** 🤖  
+- Inspired by the power of **prompt engineering** 🔋 ([Learn more about prompt engineering](https://xaviermedina.hashnode.dev/how-to-create-a-web-scraper-without-writing-code-unlocking-the-power-of-prompt-engineering-with-chatgpt#prompt-engineering))
+- Thanks to the **BBC News** website structure documentation 🙌
 
-Project Link: [https://github.com/xmedinavei/python-web-scrapper](https://github.com/xmedinavei/python-web-scrapper)
+---
 
-Blog Post: [How to Create a Web Scraper Without Writing Code: Unlocking the Power of Prompt Engineering with ChatGPT](https://xaviermedina.hashnode.dev/how-to-create-a-web-scraper-without-writing-code-unlocking-the-power-of-prompt-engineering-with-chatgpt)
+## 👤 Author
+
+**Xavier Medina**  
+
+- 📧 Email: [xmedinavei@gmail.com](mailto:xmedinavei@gmail.com)  
+- 🔗 Blog Post: [How to Create a Web Scraper Without Writing Code](https://xaviermedina.hashnode.dev/how-to-create-a-web-scraper-without-writing-code-unlocking-the-power-of-prompt-engineering-with-chatgpt)
+
+### 📃 Blog Insights
+The blog post takes a deep dive into the **prompt engineering techniques** used to design this scraper. Learn how **AI-driven development** simplifies coding challenges and enhances developer productivity! Explore the [full blog here](https://xaviermedina.hashnode.dev/how-to-create-a-web-scraper-without-writing-code-unlocking-the-power-of-prompt-engineering-with-chatgpt).
