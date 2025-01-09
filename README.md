@@ -1,6 +1,6 @@
 # 📰 BBC News Web Scraper 🌐
 
-![GitHub repo size](https://img.shields.io/github/repo-size/xmedinavei/python-web-scrapper) ![GitHub issues](https://img.shields.io/github/issues/xmedinavei/python-web-scrapper) ![GitHub forks](https://img.shields.io/github/forks/xmedinavei/python-web-scrapper?style=social) ![GitHub stars](https://img.shields.io/github/stars/xmedinavei/python-web-scrapper?style=social) 
+![GitHub repo size](https://img.shields.io/github/repo-size/xmedinavei/python-web-scrapper) ![GitHub issues](https://img.shields.io/github/issues/xmedinavei/python-web-scrapper) ![GitHub forks](https://img.shields.io/github/forks/xmedinavei/python-web-scrapper?style=social) ![GitHub stars](https://img.shields.io/github/stars/xmedinavei/python-web-scrapper?style=social)   
 ![Python](https://img.shields.io/badge/Python-3.9-blue) ![Docker](https://img.shields.io/badge/Docker-Enabled-blue) ![OpenAI-ChatGPT](https://img.shields.io/badge/OpenAI-ChatGPT-green)
 
 A **Python-based web scraper** that extracts news articles from BBC News using **Selenium** and **BeautifulSoup4**.  
@@ -153,6 +153,15 @@ This project is licensed under the **MIT License**.
 See the [LICENSE](LICENSE) file for details.
 
 ---
+
+## 💡 Further Reading
+
+Explore these resources to deepen your understanding of **prompt engineering** and **LLMs (Large Language Models)**:
+
+- [A Beginner's Guide to Prompt Engineering](https://www.prompting.ai/guide) - Learn the basics of crafting effective prompts for AI systems.
+- [Applications of Large Language Models](https://huggingface.co/transformers/) - Dive into practical applications of LLMs like GPT.
+- [OpenAI's Documentation](https://platform.openai.com/docs/) - Get insights into using OpenAI APIs effectively.
+- [How to Create a Web Scraper Without Writing Code](https://xaviermedina.hashnode.dev/how-to-create-a-web-scraper-without-writing-code-unlocking-the-power-of-prompt-engineering-with-chatgpt) - Learn the detailed process of building this project.
 
 ## 💡 Acknowledgments
 
